@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08080a">
+<meta name="description" content="Contacto de WhatsApp de Puli's Garage">
+<title>Puli's Garage | WhatsApp</title>
+<style>
+:root{--violet:#761cff;--violet2:#b34cff;--text:#f7f7f8;--muted:#aaaab2;--line:rgba(255,255,255,.11)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:
+radial-gradient(ellipse at 50% -10%,rgba(118,28,255,.30),transparent 48%),
+radial-gradient(ellipse at 100% 100%,rgba(118,28,255,.13),transparent 35%),
+linear-gradient(135deg,#050506,#111116 55%,#070708);display:flex;justify-content:center;align-items:center;padding:22px;overflow:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(135deg,transparent 0 42px,rgba(255,255,255,.012) 43px 44px)}
+.card{width:min(100%,440px);padding:30px 23px 25px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(28,28,32,.94),rgba(11,11,14,.96));box-shadow:0 30px 80px rgba(0,0,0,.58),0 0 45px rgba(118,28,255,.08);position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;top:0;left:15%;right:15%;height:2px;background:linear-gradient(90deg,transparent,var(--violet),var(--violet2),transparent);box-shadow:0 0 18px var(--violet)}
+.logo-wrap{padding:3px;margin:0 auto 18px;width:min(100%,360px);filter:drop-shadow(0 8px 20px rgba(118,28,255,.16))}
+.logo{display:block;width:100%;height:auto}
+.tag{display:inline-block;padding:6px 11px;border:1px solid rgba(179,76,255,.35);border-radius:999px;color:#d5baff;font-size:11px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase;background:rgba(118,28,255,.08)}
+h1{font-size:21px;margin:13px 0 5px;letter-spacing:.2px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 22px}
+.choice{display:flex;align-items:center;gap:14px;text-align:left;text-decoration:none;color:white;padding:15px 16px;margin:11px 0;border-radius:17px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(255,255,255,.018));transition:.18s ease;position:relative;overflow:hidden}
+.choice:after{content:"";position:absolute;inset:auto 0 0 0;height:2px;background:linear-gradient(90deg,transparent,var(--violet),transparent);opacity:.55}
+.choice:hover{transform:translateY(-2px);border-color:rgba(179,76,255,.45);box-shadow:0 10px 28px rgba(0,0,0,.28),0 0 24px rgba(118,28,255,.09)}
+.icon{width:45px;height:45px;flex:none;border-radius:14px;display:grid;place-items:center;background:#1ca866;box-shadow:0 0 18px rgba(28,168,102,.16);font-size:23px}
+.info{min-width:0}.name{font-weight:800;font-size:16px}.role{font-size:12px;color:var(--muted);margin-top:4px}.arrow{margin-left:auto;color:#c9a9ff;font-size:23px}
+.footer{margin-top:20px;padding-top:17px;border-top:1px solid rgba(255,255,255,.07);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#686870}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="logo-wrap"><img class="logo" src="logo.png" alt="Puli's Garage"></div>
+  <span class="tag">Contacto directo</span>
+  <h1>¿Con quién querés comunicarte?</h1>
+  <p class="sub">Elegí un contacto y escribinos directamente por WhatsApp.</p>
+
+  <a class="choice" href="https://wa.me/5492324479382?text=Hola%20Emiliano%2C%20te%20contacto%20desde%20Puli%27s%20Garage" target="_blank" rel="noopener">
+    <span class="icon">✆</span>
+    <span class="info"><span class="name">Emiliano</span><span class="role">WhatsApp · 2324 479382</span></span>
+    <span class="arrow">›</span>
+  </a>
+
+  <a class="choice" href="https://wa.me/5492324585708?text=Hola%20Agustin%2C%20te%20contacto%20desde%20Puli%27s%20Garage" target="_blank" rel="noopener">
+    <span class="icon">✆</span>
+    <span class="info"><span class="name">Agustín</span><span class="role">WhatsApp · 2324 585708</span></span>
+    <span class="arrow">›</span>
+  </a>
+
+  <div class="footer">Puli's Garage · Trabajo · Detalle · Calidad · Confianza</div>
+</main>
+</body>
+</html>
